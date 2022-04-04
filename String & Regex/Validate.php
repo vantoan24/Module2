@@ -12,7 +12,7 @@ function check_class($pattern,$class_name){
 if(preg_match($pattern,$class_name)){
     echo "Tên lớp hợp lệ.<br>";
 }else{
-    echo "Tên lớp không hợp lệ";
+    echo "Lộn lớp không hợp lệ";
 }
 }
 echo check_class($pattern,$class_name,$class_name2);
