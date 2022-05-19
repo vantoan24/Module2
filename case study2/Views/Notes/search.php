@@ -14,8 +14,7 @@ include './layout/header.php' ?>
                             <?php foreach ($notestypes as $notestype): ?>
                                 <option value="<?php echo $notestype->id?>"><?php echo $notestype->name; ?></option>
                               <?php endforeach; ?>  
-                        </select>     
-                     
+                        </select>       
                     </div>
                     <div class="col-9">
                         <input class="form-control" type="text" placeholder="Tiêu đề" name="search">

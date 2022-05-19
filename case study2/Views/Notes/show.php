@@ -7,7 +7,7 @@ include './layout/header.php'
     <div class="row mt-5 justify-content-center">
         <div class="col-md-6">
             <h4><?=$note->title?></h4> 
-            <div class="col-md-12 mt-4 p-2 border rounded" style='background-color:gray; min-height: 100px;'>
+            <div class="col-md-12 mt-4 p-2 border rounded" style='background-color:pink; min-height: 100px;'>
             <p><?=$note->content?></p>
                 <p></p>
             </div>

@@ -15,15 +15,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $tinh=0;
     switch($Operator){
         case '+': $tinh = (int) $Firstoperand +(int) $Secondoperand ;
-        
         break;
         case '-':$tinh = (int)$Firstoperand - (int)$Secondoperand;
-        
         break;
         case '*':$tinh=(int) $Firstoperand * (int)$Secondoperand;
         break;
         case '/':$tinh= (int)$Firstoperand / (int)$Secondoperand;
-
     }
 }
 

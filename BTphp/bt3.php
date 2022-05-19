@@ -3,6 +3,7 @@ $english = [
     "hello" => "xin chào",
     "computer" => "máy tính ",
     "book" => "sách",
+    "light"=>"sáng",
 ];
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $searchWord = $_POST["search"];

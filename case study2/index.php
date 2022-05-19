@@ -15,6 +15,10 @@ switch($controller){
     case 'Admin':
     $objController = new AdminController();
     include_once './Controllers/UserController.php';
+    break; 
+    default:
+    $objController = new NotetypeController();
+    include_once './Controllers/NotetypeController.php';
 }
 
 switch ($action){
@@ -39,10 +43,14 @@ switch ($action){
     case 'search':
         $objController->search();
         break;
+    // case 'pageno':
+    //     $objController->page();
+    //     break;
+     
     // case 'sortasc':
     //     $objController->sort_asc();
     //     break;
     default:
-        // $objController->index();
+        $objController->index();
         break;
 }
