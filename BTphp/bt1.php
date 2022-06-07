@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Document</title>
     <style type="text/css">
         .login{
-            width:100px
+            width:100px;
             margin:0;
             padding:10px;
             border:1px #CCC solid;
