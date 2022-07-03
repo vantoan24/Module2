@@ -9,4 +9,3 @@ if(isset($_POST['nameVal']) && $_POST['numberVal'] && $_POST['emailVal'] && $_PO
 
     $result = mysqli_query($con,$sql);
 }
-?>
